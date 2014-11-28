@@ -35,12 +35,11 @@ a {
 .masthead {
     overflow: hidden;
     display: block;
-    background-color:#ffffff; 
+    background-color:#ffffff;
 }
 
 .logo {
-    height: 4rem;
-    width: auto;
+    width: 5rem;
     padding: .5rem 5%;
     text-align: center;
     display: inline-block;
@@ -62,7 +61,15 @@ ul {
   display: block;
   text-decoration: none;
 }
+.nav {
+    padding: 0;
+}
 
+.nav li {
+        text-decoration:none;
+        display:inline-block;
+        text-align: center;
+    }
 .drop-in {
     height: 3rem;
     width: auto;
@@ -94,6 +101,15 @@ ul {
     
 }
 
+.services {
+    background-color: #e2e2e2;
+    height: 4rem;
+    width: auto;
+    padding: .5rem 5%;
+    text-align: center;
+    display: inline-block;
+}
+
 @media only screen and (min-width: 20em) {
     
     .masthead {
@@ -111,12 +127,6 @@ ul {
 @media only screen and (min-width: 25em) {
     
     .footer {
-        text-align: center;
-    }
-    
-    .nav li {
-        text-decoration:none;
-        display:inline-block;
         text-align: center;
     }
     
@@ -158,7 +168,10 @@ ul {
         
     .button {
         text-align: center;
-        
+    }
+    
+    .logo {
+        height: 6rem;
     }
         
         
