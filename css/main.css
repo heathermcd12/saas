@@ -43,6 +43,7 @@ a {
     padding: .5rem 5%;
     text-align: center;
     display: inline-block;
+    
 }
 
 .logo a {
@@ -132,8 +133,13 @@ ul {
 
 .icon {
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.nav-bottom {
+    text-align: right;
+}
 
 
 @media only screen and (min-width: 20em) {
@@ -232,5 +238,8 @@ ul {
     
     .logo {
         text-align: left;
+    }
+    .nav-top {
+        text-align: right;
     }
 }
