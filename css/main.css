@@ -49,6 +49,16 @@ a:active {
     outline: none;
 }
 
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+    background-color: #424035;
+    color: #fff;
+}
+
 a:focus {
     outline: 3px solid #000;
 }
@@ -169,7 +179,6 @@ ul {
 .overlay {
     position:absolute;
     top: 50%;
-    background-color:(RGBA 0.6);
     font-size: 2.5em;
     color: white;
     font-family:sans-serif;
@@ -208,9 +217,6 @@ figure {
 .nav-bottom {
     text-align: right;
 }
-
-
-
 .copyright {
     display: inline;
     font-size: 62.5%;
@@ -227,18 +233,23 @@ figure {
     background-color: #424035;
 }
 
-
-        font-size: 1em;
-        text-align:center;
-    }
-        
+.footer-copy {
+    margin: 0;
+    padding:0;
 }
+
 
 /** THANKS PAGE **/
 
 .thanks {
     text-align: center;
     font-size: 2em;
+    color: #424035;
+}
+
+.thanks-h3 {
+    text-align: center;
+    color: #424035;
 }
 
 /** Pricing page**/
@@ -257,8 +268,63 @@ figure {
 
 /** Signup **/
 
-.main-signup {
+.signup-html {
     background-color: #e1e9ea;
+}
+
+label {
+    display: block;
+}
+
+input + label {
+    display: inline-block;
+}
+
+.form-title {
+    text-align: center;
+}
+
+.field {
+font-size: 1.25em;
+background-color: white;
+padding: 0.2em 0.5em;
+width: 100%;
+}
+
+fieldset {
+text-decoration: none;
+border: none;
+padding: 0;
+}
+
+textarea {
+    width: 100%;
+    height: 9em;
+    max-width: 700px;
+}
+
+.radio {
+    white-space: nowrap;
+}
+
+form {
+    max-width: 35em;
+    margin: 0 auto;
+    color: #424035;
+}
+
+button {
+    font: normal 100%/1.5 "Montserrat Alternates", sans-serif;
+    font-size: 1.5;
+    padding: 1.5;
+    background-color: #85a8be;
+    color: white;
+    border: 2px solid #424035;
+    cursor: pointer;
+}
+
+.button-move {
+    text-align: center;
 }
 
 

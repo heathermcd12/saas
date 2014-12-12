@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-ca">
+<html lang="en-ca" class="signup-html">
 <head>
   <link href='http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700' rel='stylesheet' type='text/css'>
   <meta charset="utf-8">
@@ -10,6 +10,11 @@
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
+    
+<ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#navigation">Jump to navigation</a></li>
+</ul>
     
 <div role="banner" class="masthead">  
     
@@ -38,9 +43,14 @@
             <label for="e-mail">E-mail address</label>
             <input class="field" type="e-mail" id="e-mail"> 
         </div>
+         
+         <div class="pad-b-1-2">
+            <label for="password">Password</label>
+            <input class="field" type="password" id="password"> 
+        </div>
 
         <div>
-            <legend><em>Level of Adventurer</em></legend>
+            <legend>Level of Adventurer</legend>
             <span class="radio">
                 <input type="radio" id="hitchhicker" name="awesomeness">
                 <label for="hitchhiker" >Hitchhiker</label>
@@ -60,8 +70,8 @@
             <textarea id="explanation"></textarea>
         </div>
              
-        <div class="submit button">  
-            <button type="submit">Sign Up</button>
+        <div class="submit button pad-b-1-2"> 
+            <button type="submit">Drop In!</button>
         </div>
 
     </form>
