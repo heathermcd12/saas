@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8">
+  <title>Adventurer</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/grids.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    
+<div role="banner" class="masthead">  
+    
+    <header class="grid grid-middle section-dark">
+    <div class="pad-top-half logo-wrap unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
+        <a class="logo" href="index.html"><img src="icons/logo-01.svg" alt="adventurer logo"></a>
+    </div>
+    
+      <nav role="navigation" class="nav-top unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-2-3">
+        <ul class="nav push-0 mega">
+          <li class="li"><a class="nav-top island-1-2" href="index.html">Features</a></li>
+          <li class="li"><a class="nav-top island-1-2" href="pricing.html">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+</div>
+<main>
+     <form action="thanks.html" method="post" class="gutter">
+
+        <div class="pad-b-1-2 pad-top">
+            <label for="name">Name</label>
+            <input id="name" class="field"> 
+        </div>
+
+        <div class="pad-b-1-2">
+            <label for="e-mail">E-mail address</label>
+            <input class="field" type="e-mail" id="e-mail"> 
+        </div>
+
+        <div>
+            <legend><em>Level of Adventurer</em></legend>
+            <span class="radio">
+                <input type="radio" id="hitchhicker" name="awesomeness">
+                <label for="hitchhiker" >Hitchhiker</label>
+            </span>
+            <span class="radio">
+                <input type="radio" id="pretty good" name="awesomeness">
+                <label for="pretty good" >Adventurist</label>
+           </span>
+           <span class="radio">        
+                <input type="radio" id="super" name="awesomeness">
+                <label for="super">Cross-country</label>
+           </span>
+        </div> <!-- a way to group related shit together- creates a box around it! -->   
+             
+        <div>
+            <label for="explanation">What are your favourite kinds of adventures?</label>
+            <textarea id="explanation"></textarea>
+        </div>
+             
+        <div class="submit button">  
+            <button type="submit">Sign Up</button>
+        </div>
+
+    </form>
+</div>
+
+</main>  
+    
+<footer role="contentinfo" class="footer">
+	<div class="logo pad-top">
+		<a href="#top"><img src="icons/logo-01-light-footer.svg" class="bottom-logo" alt="adventurer logo"></a>	
+	</div>
+    <div>
+        <ul class="footer-copy">
+            <li class="copyright"> Adventurer 2014 /</li>
+            <li class="terms-conditions"> Terms and Conditions </li>
+        </ul>    
+    </div>
+</footer>
+    
+    
+</body>
+</html>
